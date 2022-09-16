@@ -1,0 +1,300 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card_logo ul {
+    list-style: none;
+    padding: 0;
+    font-weight: bold;
+    color: #4f4949;
+}
+
+.card_logo .mongodb {
+    width: 94px!important;
+    height: 40px;
+}
+
+.card_logo .card-title {}
+.font-bangers {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+}
+
+.name {
+    font-size: 35px;
+}
+
+.name, h2, h1, .title {
+    font-family: 'Rubik Moonrocks', cursive;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-image: url("https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cHVycGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: block;
+
+}
+
+.card {
+    margin: 15px auto;
+    padding: 10px;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.white_text {
+    color: white;
+}
+
+.span_ius {
+    position: relative;
+    bottom: 50px;
+    left: 5px;
+    letter-spacing: 10px;
+    font-size: 6.2rem;
+
+
+}
+
+.cards_project {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+
+.logo_name {
+    text-align: center;
+    font-family: 'Rubik Moonrocks', cursive;
+    color: white;
+    font-size: 6rem;
+    border: solid 12px white;
+    width: 260px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    height: 250px;
+    position: relative;
+    top: 35%;
+
+}
+
+.navbar-brand {
+    font-family: 'Bangers', cursive;
+}
+
+
+.margin-title {
+    margin: 20px auto;
+}
+
+.fixed {
+    position: fixed !important;
+    width: 100%;
+    z-index: 0;
+}
+
+.img-home {
+    background-image: url("https://i.pinimg.com/236x/5d/24/54/5d2454b75734706f72dbe6f63dfead2c.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.logo-img {
+    width: 50px!important;
+    height: 50px;
+}
+
+.section-competences {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card_logo {
+    width: 40%;
+    text-align: center;
+    width: 30%;
+    border: 1px solid #00000038;
+    padding-top: 15px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.card_logo .card-body {
+    text-align: center;
+}
+
+.contact\/formation {
+    display: flex;
+}
+/* Frise chronologique*/
+:root {
+    --primary-color: #fff; /* try #212121 also for dark mode */
+    --background-color: #ffffff;
+    --font: sans-serif;
+}
+
+
+
+/* Timeline Container */
+.timeline {
+    background: var(--primary-color);
+    padding: 20px;
+    width: 50%;
+}
+
+/* Outer Layer with the timeline border */
+.outer {
+    border-left: 2px solid #333;
+}
+
+/* Card container */
+.card_formation {
+    position: relative;
+    margin: 0 0 20px 20px;
+    padding: 10px;
+    background: white;
+    color: gray;
+    border-radius: 8px;
+    max-width: 400px;
+    border: 2px solid black;
+    box-shadow: 1px 3px 3px #9a4b9a;
+
+}
+
+.card_formation .title {
+    font-size: 16px;
+}
+
+
+/* Information about the timeline */
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Title of the card */
+.info .title {
+    position: relative;
+    font-family: "Rubik Moonrocks", cursive;
+    text-align: start;
+}
+
+/* Timeline dot  */
+.title::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 999px;
+    left: -38.5px;
+    top: 4px;
+    border: 3px solid #9a4b9a ;
+}
+
+
+
+@media only screen and (max-width: 680px) {
+
+    .card {
+        width: 88%;
+        border: none!important;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 681px) and (max-width: 1024px) {
+    .card {
+        width: calc(48% - 10px);
+        margin: 20px 10px;
+        box-shadow: 1px 2px 9px #7b7474db;
+
+    }
+    .card_logo {
+        width: 30%!important;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .who {
+        width: 50%;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) {
+    .card {
+        width: 30%;
+        box-shadow: 1px 2px 9px #7b7474db;
+
+
+    }
+
+    .card_logo {
+        width: 30%;
+    }
+
+    .who {
+        width: 40%;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (min-width: 681px) and (max-width: 1024px) {
+    .card {
+        width: calc(48% - 10px);
+        margin: 20px 10px;
+        box-shadow: 1px 2px 9px #7b7474db;
+
+    }
+    .card_logo {
+        width: 30%!important;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .who {
+        width: 50%;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) {
+    .card {
+        width: 30%;
+        box-shadow: 1px 2px 9px #7b7474db;
+
+
+    }
+
+    .card_logo {
+        width: 30%;
+    }
+
+    .who {
+        width: 40%;
+        margin: auto;
+    }
+}
