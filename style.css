@@ -158,8 +158,10 @@ ul {
     background-color: #c49dc51c;
     width: 100%;
     position: relative;
+}
 
-
+.btn_contact a {
+    padding-left: 5px;
 }
 
 .contact:before {
@@ -214,7 +216,10 @@ ul {
 .btn_contact {
     background-color: white;
     border-radius: 3px;
-    margin: 15px auto
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn_contact:hover {
@@ -264,6 +269,10 @@ ul {
     border-radius: 4px;
     box-shadow: 1px 1px 3px 1px #9a4b9a45;
 }
+
+
+
+
 
 
 .card_formation .title {

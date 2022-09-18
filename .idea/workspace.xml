@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5a6ec5-63a4-4677-980d-a25d3c6eb7bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/LinkedIn-Symbole.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logo-react-icon.png:Zone.Identifier" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logo-react-icon.png:Zone.Identifier" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -37,7 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "//wsl$/Ubuntu/home/marius/T-WEB-500-MAR-5-1-digitalresume-marius.isoardi/assets",
+    "last_opened_file_path": "C:/Users/admin/OneDrive/Bureau/Projet OCR/p2_booki_isoardi_marius",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "terminal"
   }
@@ -61,7 +59,8 @@
       <workItem from="1663279017963" duration="704000" />
       <workItem from="1663282518336" duration="207000" />
       <workItem from="1663313244709" duration="5219000" />
-      <workItem from="1663320768313" duration="33043000" />
+      <workItem from="1663320768313" duration="33651000" />
+      <workItem from="1663500403215" duration="2476000" />
     </task>
     <servers />
   </component>
