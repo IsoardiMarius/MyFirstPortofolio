@@ -1,8 +1,14 @@
 body {
-    margin: 0;
+    margin: 0!important;
     padding: 0;
     box-sizing: border-box;
 }
+
+* {
+    font-family: 'Raleway', sans-serif;
+
+}
+
 
 
 ul {
@@ -14,6 +20,11 @@ ul {
     color: rgba(0, 0, 0, 0.65);
 }
 
+.who, .cards_project h5 {
+    padding: 0 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
 
 
 .card_logo ul {
@@ -53,7 +64,6 @@ ul {
 
 .card {
     margin: 15px auto;
-    padding: 20px 0;
 }
 
 
@@ -73,6 +83,12 @@ ul {
     font-size: 6.2rem;
 
 
+}
+
+.background-projects {
+    border-radius: 10px;
+    padding: 30px 0 60px 0;
+    margin: 60px 0;
 }
 
 .cards_project {
@@ -122,6 +138,10 @@ ul {
     background-position: 40% 70%;
     height: 100vh;
     background-repeat: no-repeat;
+}
+
+.ohmyfood {
+
 }
 
 .logo-img {
@@ -254,6 +274,14 @@ ul {
     margin: 50px 0;
 }
 
+.outer ul, .outer p {
+    font-size: 12px;
+}
+
+.outer p {
+    font-weight: 700;
+}
+
 /* Card container */
 .card_formation {
     position: relative;
@@ -284,7 +312,12 @@ ul {
 .info {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+
+}
+
+.info p {
+    margin: 0 0 5px 0;
+
 }
 
 /* Title of the card */
@@ -369,6 +402,11 @@ ul {
 
 
 @media only screen and (min-width: 681px) and (max-width: 1024px) {
+
+    .background-projects {
+        background-color: #e5e7e93b;
+
+    }
     .card {
 
         width: calc(48% - 10px);
@@ -394,7 +432,10 @@ ul {
 
 @media only screen and (min-width: 1025px) {
 
+    .background-projects {
+        background-color: #e5e7e93b;
 
+    }
     .card_logo {
         width: 30%;
     }
