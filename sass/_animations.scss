@@ -1,0 +1,80 @@
+
+$anim-delay: 0.3s; /*Délais de l'animation*/
+$menu-categories: 3; /*Catégories (Entrée, Plat, Dessert)*/
+$menu-items: 4; /*Nombre d'éléments par catégories*/
+$column-anim-duration: ($anim-delay * $menu-items); /*Temps d'animation par colone*/
+
+.card {
+    @for $i from 1 through $menu-categories { /*Pour chaque catégories*/
+        &:nth-child(#{$i}) {
+            .background-projects {
+                @for $j from 1 through $menu-items { /*Pour */
+                    &:nth-child(#{$j}) {
+                        $column-offset: $i - 1; /*Child -1*/
+                        $anim-offset: $column-offset * $column-anim-duration; /*Child -1 multiplier par animation par colone.*/
+                        -webkit-animation-delay: $anim-offset + ($j * ($anim-delay));
+                        animation-delay: $anim-offset + ($j * ($anim-delay)); /*Delais final est offset + J*/
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@-webkit-keyframes menu-appear {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(0);
+        transform: translateY(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(15px);
+        transform: translateY(15px);
+    }
+}
+
+@-webkit-keyframes menu {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(0);
+        transform: translateX(-300px);
+    }
+
+    50% {
+        opacity: 1;
+        -webkit-transform: translateX(300px);
+        transform: translateX(300px);
+    }
+
+    100% {
+        -webkit-transform: translateX(15px);
+        transform: translateX(15px);
+    }
+}
+
+
+.logo_name {
+    -webkit-animation: menu 0.9s ease-in-out both;
+    animation: menu 0.9s ease-in-out both;
+
+}
+
+
+
+
+.project_animation{
+    -webkit-animation: menu-appear 0.9s ease-in-out both;
+    animation: menu-appear 0.9s ease-in-out both;
+
+}
+
+.card { transition: all .2s ease-in-out; }
+.card:hover { transform: scale(1.05); }
+
+.opacity {
+    animation: opacity_nav 1.5s ease-in-out;
+}
+
