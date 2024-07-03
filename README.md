@@ -12,16 +12,6 @@ https://isoardimarius.github.io/_portofolio/
 
 ** HTML / CSS / Sass **
 
-## Notes
-
-**Polices :**
-- Logo & titres: Shrikhand
-- Texte: Roboto
-
-**Couleurs :**
-- Primaire: #9356DC
-- Secondaire: #FF79DA
-- Tertiaire: #99E2D0
 
 
 
